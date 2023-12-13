@@ -1,0 +1,3 @@
+The application architecture uses AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Cognito, and AWS Amplify Console. Amplify Console provides continuous deployment and hosting of the static web resources including HTML, CSS, JavaScript, and image files which are loaded in the user's browser. JavaScript executed in the browser sends and receives data from a public backend API built using Lambda and API Gateway. Amazon Cognito provides user management and authentication functions to secure the backend API. Finally, DynamoDB provides a persistence layer where data can be stored by the API's Lambda function.
+![image](https://github.com/hhoang91/wildrydes-site/assets/102393576/9de5cd74-9375-4763-b563-0055f48d0b41)
+Site link: https://main.dsukhgbsdywfn.amplifyapp.com/
